@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/btn_two"/>
 
@@ -19,6 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/btn_three"/>
 
@@ -27,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:textSize="20sp"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/btn_four"/>
 
@@ -35,8 +38,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button"
+        android:textSize="20sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp"
+        android:layout_marginBottom="80dp"
         android:layout_alignParentBottom="true"/>
 
     <TextView
@@ -45,8 +49,8 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:text="Question"
-        android:textSize="25sp"
-        android:paddingTop="20sp"
+        android:textSize="30sp"
+        android:paddingTop="30sp"
         android:gravity="center_horizontal"
         android:layout_above="@+id/btn_one"
         android:layout_alignParentTop="true"/>
