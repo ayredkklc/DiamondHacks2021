@@ -90,5 +90,16 @@
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
+    <string name="link1">
+        <a href="https://raleighnc.gov/services/content/SolidWaste/Articles/Recyclables.html">Go to Raleigh Recycling</a>
+    </string>
+
+    <string name="link2">
+        <a href="https://www.epa.gov/recycle/recycling-basics">Go to EPA Recycling</a>
+    </string>
+
+    <string name="link3">
+        <a href="https://www.epa.gov/recycle/composting-home">Go to EPA Composting</a>
+    </string>
     <string name="action_settings">Settings</string>
 </resources>

@@ -127,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
         alertDialogBuilder
-                .setMessage("Game Over")
+                .setMessage("Game Over. You got " + questionsCorrect + "/" + numberOfQuestions + " correct.")
                 .setCancelable(false)
                 .setPositiveButton("Try Again", new DialogInterface.OnClickListener() {
                     @Override
