@@ -11,3 +11,12 @@ Recycle Me is an app to inform people more about recycling and composting. It is
 - [x]  User can learn more info from our scrollable "learn more!" page. 
 - [x]  User can click on the hyperlink in our "learn more!" page to get more indepth of the info, and see our recources. 
 - [x]  User has a back button to return to the main screen in each activity.
+
+### Resouces
+https://raleighnc.gov/services/content/SolidWaste/Articles/Recyclables.html
+https://www.epa.gov/recycle/composting-home
+https://www.epa.gov/americarecycles/america-recycles-day
+https://www.epa.gov/sustainable-management-food/reducing-impact-wasted-food-feeding-soil-and-composting#:~:text=EPA%20estimates%20that%20in%202018,25%20million%20tons%20through%20composting
+https://www.epa.gov/recycle/frequent-questions-recycling
+https://thegreenteam.org/recycling-facts/
+https://berecycled.org/
