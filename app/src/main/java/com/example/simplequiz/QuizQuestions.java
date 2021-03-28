@@ -26,7 +26,7 @@ public class QuizQuestions {
      */
     public String choices[][] = {
             {"Shampoo Bottle", "Dish Soap", "Window Cleaner", "All of the above"},
-        {"Metal Oil Cans", "Batteries", "EggCartons", "None of the above"},
+        {"Metal Oil Cans", "Batteries", "Egg Cartons", "None of the above"},
         {"Bottles", "Clamshells - clear boxes marked ‘1’ or ‘PETE’ on the bottom", "Tubs commonly used to hold margarine, yogurt, and sour cream", "Plastic lids"},
         {"PLA", "compostable", "biodegradable", "recycle"},
         {"plastic bottles", "plastic lids", "pumps", "items previously containing hazardous material"},

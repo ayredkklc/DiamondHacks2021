@@ -1,10 +1,13 @@
 package com.example.simplequiz;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -41,6 +44,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         tv_question = (TextView)findViewById(R.id.tv_question);
         NextQuestion(currentQuestion++);
+
+        // calling the action bar
+        ActionBar actionBar = getSupportActionBar();
+
+        // showing the back button in action bar
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -118,7 +127,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
         alertDialogBuilder
-                .setMessage("Game Over")
+                .setMessage("Game Over. You got " + questionsCorrect + "/" + numberOfQuestions + " correct.")
                 .setCancelable(false)
                 .setPositiveButton("Try Again", new DialogInterface.OnClickListener() {
                     @Override
@@ -163,5 +172,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             answer = question.getCorrectAnswer(num);
         }
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                this.finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
