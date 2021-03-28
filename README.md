@@ -1,6 +1,6 @@
 # Recycle Me
 
-Recycle Me is an app to inform people more about recycling and composting. It is a fun app where you can take a quiz and see how well you know about recycling and composting. You can also get random facts about it, and learn more on our "Learn more!" page with the information we gathered from reliable recources. 
+Recycle Me is an app to inform people more about recycling and composting. It is a fun app where users can view randomly-generated facts, take a quiz to test their knowledge, and learn more from official and reliable sources. 
 
 ### User Stories
 - [x]  User can get facts about recycling and composting. Each time user pressess the button it shows a random fact. 
