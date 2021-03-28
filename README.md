@@ -10,4 +10,4 @@ Recycle Me
 - [x]  User has 3 lives to pass the quiz. When the user gets a question wrong, they lose 1 life.
 - [x]  User loses the game after 3 tries and can try again or go back to the main screen.
 - [x]  User can see how many quiz questions they got right out of 10 questions. 
-- [x]  User has back button to go back to the main screen in each activity.
+- [x]  User has a back button to go back to the main screen in each activity.
