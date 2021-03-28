@@ -8,7 +8,7 @@ import android.view.View;
 import android.os.Bundle;
 
 public class Welcome extends AppCompatActivity {
-    Button start, facts;
+    Button start, facts, info;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +29,15 @@ public class Welcome extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Welcome.this, FactsActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        info = (Button)findViewById(R.id.btn_info);
+        info.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Welcome.this, ScrollingActivity.class);
                 startActivity(intent);
             }
         });
