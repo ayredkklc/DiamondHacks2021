@@ -1,3 +1,3 @@
 # DiamondHacks2021
 
-##Recycle Me
+Recycle Me
